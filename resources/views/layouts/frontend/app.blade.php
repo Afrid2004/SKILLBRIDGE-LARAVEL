@@ -13,9 +13,9 @@
 
 <body class="bg-slate-50 text-slate-800">
     @include('components.frontend.header')
-    <div>
+    <main>
         @yield('content')
-    </div>
+    </main>
 
     @include('components.frontend.footer')
     @stack('script')
