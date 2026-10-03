@@ -1,5 +1,5 @@
 <section>
-    <div class="py-15">
+    <div class="py-15 bg-primary-light">
         <div class="container">
             <div>
                 <div class="flex items-center justify-between mb-10">

@@ -46,7 +46,7 @@
 
                 {{-- mobile --}}
                 <div
-                    class="menuModal group opacity-0 pointer-events-none [&.active]:opacity-100 [&.active]:pointer-events-auto fixed transition-all duration-150 top-0 left-0 bg-secondary/50 w-full h-screen overflow-hidden flex md:hidden justify-end">
+                    class="menuModal group opacity-0 pointer-events-none [&.active]:opacity-100 [&.active]:pointer-events-auto fixed transition-all duration-150 top-0 left-0 bg-secondary/50 w-full h-screen overflow-hidden flex md:hidden justify-end z-20">
                     <div
                         class="menuDrawer translate-x-full transition-transform duration-300 group-[.active]:translate-x-0 w-sm bg-primary-light h-full">
                         <div class="border-b border-gray-200">

@@ -1,5 +1,5 @@
 <section>
-    <div class="bg-slate-100/70 py-25 border-t border-b border-slate-200">
+    <div class=" py-20 border-t border-b border-slate-200">
         <div class="container">
             <div class="flex flex-col justify-center items-center w-full max-w-xl gap-5 mx-auto mb-10">
                 <span class="text-primary text-sm uppercase font-medium text-center">How skillbridge works</span>
