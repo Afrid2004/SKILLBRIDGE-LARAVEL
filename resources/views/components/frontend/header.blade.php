@@ -1,3 +1,30 @@
+<?php
+
+$menus = [
+    [
+        'name' => 'Home',
+        'route' => 'home.index',
+        'url' => route('home.index'),
+    ],
+    [
+        'name' => 'Tasks',
+        'route' => 'tasks.index',
+        'url' => route('tasks.index'),
+    ],
+    [
+        'name' => 'Freelancers',
+        'route' => 'freelancers',
+        'url' => '#',
+    ],
+    [
+        'name' => 'About',
+        'route' => 'about',
+        'url' => '#',
+    ],
+];
+
+?>
+
 <header>
     <div class="bg-white border-b border-gray-100">
         <div class="container">
