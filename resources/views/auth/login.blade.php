@@ -19,6 +19,12 @@
                 <p class="text-[11px] sm:text-xs text-slate-500 mt-1">
                     Log in to continue to SkillBridge
                 </p>
+
+                @if (session('success'))
+                    <div class="mt-2 rounded-lg bg-green-50 p-3 text-sm text-green-700">
+                        {{ session('success') }}
+                    </div>
+                @endif
             </div>
 
             {{-- Session Status --}}
