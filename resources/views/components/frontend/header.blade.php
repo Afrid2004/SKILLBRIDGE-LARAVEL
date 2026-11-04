@@ -59,7 +59,7 @@ $menus = [
                         <a href="/login"
                             class="text-sm rounded-4xl border border-gray-200/70 px-4 py-2 hover:bg-gray-100 duration-150">Log
                             in</a>
-                        <a href="/signup"
+                        <a href="/register"
                             class="text-sm rounded-4xl px-4 py-2 bg-secondary duration-150 text-primary-light hover:bg-primary">Sign
                             up free</a>
                     </div>
@@ -108,7 +108,7 @@ $menus = [
                                         <a href="/login"
                                             class="rounded-4xl block bg-slate-100 text-slate-700 px-4 py-2 duration-150 hover:text-primary-light hover:bg-primary">Log
                                             in</a>
-                                        <a href="/signup"
+                                        <a href="/register"
                                             class="rounded-4xl block px-4 py-2 bg-secondary duration-150 text-primary-light hover:bg-primary">Sign
                                             up free</a>
                                     </div>

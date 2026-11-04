@@ -54,19 +54,18 @@
 
         {{-- User Profile --}}
         <div class="flex items-center gap-2 border-l border-slate-200 pl-3 sm:pl-4">
+            <div
+                class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-100 font-bold text-indigo-700">
+                {{ strtoupper(substr(Auth::user()->name, 0, 1)) }}
+            </div>
 
-            <div class="hidden text-right sm:block">
+            <div class="hidden sm:block">
                 <p class="max-w-28 truncate text-sm font-semibold text-slate-800">
                     {{ Auth::user()->name }}
                 </p>
                 <p class="text-xs capitalize text-slate-500">
-                    {{ Auth::user()->role }}
+                    {{ Auth::user()->getRoleNames()->first() }}
                 </p>
-            </div>
-
-            <div
-                class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-100 font-bold text-indigo-700">
-                {{ strtoupper(substr(Auth::user()->name, 0, 1)) }}
             </div>
 
             {{-- Logout --}}

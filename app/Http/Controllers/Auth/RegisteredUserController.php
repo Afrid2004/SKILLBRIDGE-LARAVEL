@@ -39,9 +39,10 @@ class RegisteredUserController extends Controller
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
-            'role'  => $request->role,
             'password' => Hash::make($request->password),
         ]);
+        // assigning role through spite permission 
+        $user->assignRole($request->role);
         event(new Registered($user));
         return redirect()->route('login')->with("success", "Account created successfully! Please log in.");
     }
